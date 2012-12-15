@@ -1,0 +1,147 @@
+#comentarios
+{
+	margin-bottom:45px;
+}
+
+h3.comentario-titulo{
+	font-family:georgia;
+	font-size:2	px;
+	margin-top:10px;
+	color:#007095;
+	margin-bottom:0px;
+	padding:0px;
+}
+.comentario-contenido
+{
+	margin-top:14px;
+}
+
+.comentario-contenido input
+{
+	margin:5px 5px 5px 0px;
+	border:1px solid #cccccc;
+	padding:2px;
+	width:215px;
+}
+
+.comentario-contenido textarea
+{
+	margin:5px 5px 5px 0px;
+	padding:2px;
+	width:500px;
+	border:1px solid #cccccc;
+	height:150px;
+}
+.comentario-text
+{
+	color:#777777;
+	font-size:12px;
+	font-family:verdana;
+}
+.comentario-hr
+{
+	border:none;
+	border-top:1px solid #cccccc;
+	margin:0px;
+	padding:0px;
+}
+
+.comentario-contenido div .submit
+{
+	border:1px solid #cccccc;
+	background-color:#F7F7F7;
+	border-radius:5px;
+	color:#333333;
+}
+
+.comentario-contenido div .submit:hover
+{
+	font-weight:bold;
+	color:#007095;
+	background-color:#eee;
+}
+
+.comentario-even
+{
+	background-color: #F7F7F7;
+	border-radius:8px;
+	color:#666666;
+	margin-top:5px;
+}
+
+.comentario-odd
+{
+	background-color: #E8E8E8;
+	border-radius:8px;
+	color:#666666;
+	margin-top:5px;
+}
+
+.comentario-top{
+	padding-top:12px;
+	font-family:verdana;
+}
+
+.comentario-bottom{
+	clear:both;
+	padding:8px 10px 15px 10px;;
+}
+
+.comentario-numero
+{
+	float: left;
+    font-family:verdana;
+    font-size:23px;
+    margin-left:8px;
+    margin-top:1px;
+	color:#9a6565;
+}
+
+.comentario-nombre{
+	float:left;
+	padding-left:10px;
+}
+
+.coment-nombre1{
+	font-size:15px;
+}
+
+.coment-nombre2{
+	font-size:10px;
+	color:#a64949;
+}
+
+.comentario-img
+{
+	float:right;
+	padding-right:15px;
+}
+
+#comentarios-mostrar
+{
+	display:none;
+	clear:both;
+	text-align:left;
+	margin-left:20px;
+	margin-right:20px;
+	padding-top:20px;
+}
+
+/*Esta etiqueta id la utilizo para el cargando*/
+
+#cargando
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+	width:100px;
+	height:100px;
+	background:url(../img/iconos/loading.gif) no-repeat 21px;
+}
+
+#cargando-text
+{
+	padding-top:75px;
+	width:100px;
+}

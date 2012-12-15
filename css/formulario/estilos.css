@@ -1,0 +1,133 @@
+#formContenedor 
+{
+	text-align:center;
+	width:400px;
+	margin-top:27px;
+	margin-left:60px;
+	padding-bottom:40px;
+}
+
+table { width:400px; }
+
+/*input
+{
+	width:220px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border:1px solid;
+}*/
+
+textarea
+{
+	width:580px;
+	height:200px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border:1px solid;
+}
+
+.label { width:110px; text-align:left; }
+
+.campo { width:240px;text-align:left; }
+
+.ayuda { width:50px; text-align:center; }
+
+.inputNormal 
+{ 
+	border:1px solid;
+}
+
+.inputError
+{
+	border:1px solid #FF0000;
+	background-color:#FFF4F0;
+	color:#FF0000;
+}
+
+/* Capas de transparencia y mensajes de confirmacion */
+
+#transparencia
+{
+	background-color:#FFFFFF; 
+	z-index:1; 
+	position:absolute;
+	width:400px;
+	height:260px;
+	display:none;
+	opacity:0.95; filter:alpha(opacity="95");
+	left:400px;
+}
+
+#transparenciaMensaje
+{
+	position:absolute;
+	width:300px;
+	height:100px;
+	margin-top:-50px;
+	margin-left:-153px;
+	top:50%;
+	left:50%;
+}
+
+/* Mensajes de ayuda */
+
+#mensajesAyuda
+{
+	width:160px;
+	font-family:Verdana;
+	font-size:10px;
+	border:1px solid #000000;
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+	text-align:center;
+	background-color:#cbe5ee;
+}
+
+#ayudaTitulo
+{
+	background-color:#B2C629; 
+	font-weight:bold;
+	color:#000000;
+	padding:1px;
+}
+
+#ayudaTexto
+{
+	vertical-align:middle;
+	padding:2px;
+}
+
+button 
+{ 
+	width:110px;
+	height:38px;
+	border:none;
+}
+
+#botones
+{
+	margin-left:102px;
+	width:290px;
+}
+
+#enviar_formulario
+{
+	background:url(../../img/botones/capa1_enviar.png) no-repeat;
+}
+
+#enviar_formulario:hover
+{
+	background:url(../../img/botones/capa2_enviar.png) no-repeat;
+}
+
+#borrar_formulario
+{
+	background:url(../../img/botones/capa1_borrar.png) no-repeat;
+}
+
+#borrar_formulario:hover
+{
+	background:url(../../img//botones/capa2_borrar.png) no-repeat;
+}

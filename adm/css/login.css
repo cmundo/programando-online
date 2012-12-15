@@ -1,0 +1,114 @@
+body
+{
+	background-color:#FBFBFB;
+}
+
+p
+{
+	margin:0;
+}
+
+.volver
+{
+	margin-top:25px;
+	text-align:center;
+	font-family:verdana;
+	font-size:14px;
+}
+
+.volver a
+{
+	text-decoration:none;
+	color:#000000;
+}
+
+.volver a:hover
+{
+	color:#007095;
+}
+
+#cont-login
+{
+	width:280px;
+	margin:0 auto;
+}
+
+#img-login
+{
+	width:190px;
+	margin:72px auto 16px;
+}
+
+#error
+{
+	width:200px;
+	margin:0 auto 20px;
+	text-align:center;
+	border:1px solid #e54545;
+	border-radius:3px;
+	padding:10px 8px 10px 8px;
+	font-family:verdana;
+	font-size:12px;
+	color:#e54545;
+	font-style:italic;
+	box-shadow: 2px 3px 7px -2px red;
+}
+
+#login_form
+{
+	border:1px solid #b6dce8;
+	margin:0 auto;
+	padding:15px;
+	box-shadow: 0px 1px 5px -1px #007095;
+}
+
+.label
+{
+	font-family:verdana;
+	cursor:pointer;
+}
+
+.label span
+{
+	font-size:14px;
+	color:#777777;
+}
+
+.caja
+{
+	margin-top:2px;
+	margin-bottom:10px;
+	font-size:20px;
+	width:250px;
+	padding:3px;
+}
+
+.caja:focus
+{
+	color:#B2C629;
+}
+
+#boton
+{
+	width:100px;
+	margin:0 auto;
+}
+
+.entrar
+{
+	background-color:#007095;
+	border:1px solid #007095;
+	border-radius:8px;
+	width:100px;
+	font-size:14px;
+	font-family:verdana;
+	color:#FFFFFF;
+	padding:3px;
+	font-weight:bold;
+}
+
+.entrar:hover
+{
+	background-color:#B2C629;
+	border:1px solid #B2C629;
+}
